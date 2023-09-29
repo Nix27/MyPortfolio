@@ -8,7 +8,12 @@ export default {
   theme: {
     extend: {
       colors: {
+        "dark-purple": "#100D15",
         "primary-cyan": "#3CF3FF"
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        "ink-free": ["Ink Free", "sans-serif"]
       }
     },
     screens: {

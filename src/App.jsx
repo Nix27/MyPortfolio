@@ -1,9 +1,8 @@
 import React from 'react'
+import { Navbar, About, TechStack, Skills, Projects, Footer } from './components'
 
-const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+const App = () => (
+  <Navbar />
+)
 
 export default App

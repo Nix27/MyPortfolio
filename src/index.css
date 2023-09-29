@@ -7,3 +7,21 @@
 *{
     scroll-behavior: smooth;
 }
+
+body{
+    background-color: #100D15;
+}
+
+.gradient-ink-free-text{
+    font-family: "Ink Free", sans-serif;
+    background: linear-gradient(180deg, #3CF3FF 49.27%, rgba(51, 0, 255, 0.58) 95%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    -ms-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;
+}
