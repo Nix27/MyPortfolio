@@ -8,6 +8,10 @@
     scroll-behavior: smooth;
 }
 
+section{
+    padding-top: 60.8px;
+}
+
 body{
     background-color: #100D15;
 }
@@ -24,4 +28,60 @@ body{
     -moz-text-fill-color: transparent;
     -o-text-fill-color: transparent;
     -ms-text-fill-color: transparent;
+}
+
+.gradient-poppins-text{
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(110deg, #3CF3FF 43.79%, #30F 105.88%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    -ms-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;
+}
+
+.gradient-blur{
+    background: linear-gradient(180deg, #3CF3FF 16.67%, rgba(97, 0, 255, 0.58) 100%, rgba(51, 0, 255, 0.58) 100%);
+    filter: blur(360px);
+}
+
+.gradient-line{
+    background: linear-gradient(270deg, rgba(51, 0, 255, 0.58) 8.28%, #3CF3FF 66.77%);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.title::before{
+    content: "";
+    width: 20%;
+    height: 3px;
+    margin-right: 30px;
+    background: linear-gradient(270deg, #3CF3FF 27.77%, rgba(51, 0, 255, 0.58) 105.76%);
+}
+
+.title::after{
+    content: "";
+    width: 20%;
+    height: 3px;
+    margin-left: 30px;
+    background: linear-gradient(270deg, rgba(51, 0, 255, 0.58) 8.28%, #3CF3FF 66.77%);
+}
+
+@media only screen and (max-width: 619px){
+    .title::before{
+        margin-right: 10px;
+    }
+
+    .title::after{
+        margin-left: 10px;
+    }
 }
