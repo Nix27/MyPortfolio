@@ -9,10 +9,6 @@ const TechStack = () => (
   <section className='flex flex-col px-10 mt-10'>
     <SectionTitle title={techstackSection.title} />
 
-    <div className='lg:w-[80%] flex justify-center self-center mt-5'>
-      <p className='gradient-poppins-text text-center'>{techstackSection.sentence}</p>
-    </div>
-
     <Carousel
       className='mt-10 flex'
       loop={true}

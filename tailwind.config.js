@@ -10,8 +10,13 @@ export default withMT({
   theme: {
     extend: {
       colors: {
-        "dark-purple": "#100D15",
-        "primary-cyan": "#3CF3FF"
+        "dark-purple": {
+          "100": "#1B1720",
+          "200": "#100D15"
+        },
+        "primary-cyan": "#3CF3FF",
+        "primary-gray": "#2C2D3A",
+        "primary-white": "#FFFFFF"
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

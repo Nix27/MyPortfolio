@@ -11,6 +11,9 @@ import react from './images/react.png'
 import netcore from './images/.net core.png'
 import azure from './images/azure.png'
 import sql from './images/sql.png'
+import projectWebshop from './images/project-webshop.png'
+import figma from './images/figma.png'
+import github from './images/github.png'
 
 export {
     Logo,
@@ -25,5 +28,8 @@ export {
     react,
     netcore,
     azure,
-    sql
+    sql,
+    projectWebshop,
+    figma,
+    github
 };

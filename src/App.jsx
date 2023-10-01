@@ -6,6 +6,8 @@ const App = () => (
     <Navbar />
     <About />
     <TechStack />
+    <Skills />
+    <Projects />
   </>
 )
 
