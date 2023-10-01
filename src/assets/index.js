@@ -13,7 +13,7 @@ import azure from './images/azure.png'
 import sql from './images/sql.png'
 import projectWebshop from './images/project-webshop.png'
 import figma from './images/figma.png'
-import github from './images/github.png'
+import projectTravelAgency from './images/project-travel-agency.png'
 
 export {
     Logo,
@@ -31,5 +31,5 @@ export {
     sql,
     projectWebshop,
     figma,
-    github
+    projectTravelAgency
 };

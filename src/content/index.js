@@ -1,4 +1,4 @@
-import { html, css, js, sass, bootstrap, tailwindcss, jquery, react, netcore, sql, azure, projectWebshop, github } from '../assets'
+import { html, css, js, sass, bootstrap, tailwindcss, jquery, react, netcore, sql, azure, projectWebshop, projectTravelAgency } from '../assets'
 
 export const navbarLinks = [
     {
@@ -259,15 +259,11 @@ export const projectsSection = {
                     image: jquery,
                     desc: "jquery"
                 }
-            ],
-            github: {
-                image: github,
-                desc: "github"
-            }
+            ]
         },
         {
             id: crypto.randomUUID(),
-            projectImage: projectWebshop,
+            projectImage: projectTravelAgency,
             imageDesc: "travel agency website project",
             title: "[Front-end] Travel agency website",
             techStack: [
@@ -281,11 +277,7 @@ export const projectsSection = {
                     image: tailwindcss,
                     desc: "tailwindcss"
                 }
-            ],
-            github: {
-                image: github,
-                desc: "github"
-            }
+            ]
         }
     ]
 }

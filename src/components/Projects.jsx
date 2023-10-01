@@ -1,35 +1,16 @@
 import React from 'react'
 import SectionTitle from './SectionTitle'
 import { projectsSection } from '../content'
+import ProjectCard from './ProjectCard'
 
 const Projects = () => {
   return (
-    <section className='flex flex-col'>
+    <section id='projects' className='flex flex-col mt-14'>
       <SectionTitle title={projectsSection.title} />
 
-      <div className='flex flex-col gap-4'>
+      <div className='flex flex-col items-center md:flex-row md:justify-center md:gap-5 lg:gap-10 gap-4 mx-0 md:mx-10 lg:mx-0'>
         {projectsSection.projects.map(project => (
-          <div key={project.id} className='flex flex-col h-[300px] justify-between bg-dark-purple-100 rounded-[3rem] p-2'>
-            <div className='h-[220px] overflow-hidden self-center'>
-              <img src={project.projectImage} alt={project.imageDesc} className='rounded-[3rem]' />
-            </div>
-
-            <p className='text-primary-white font-bold ml-3'>{project.title}</p>
-
-            <div className='flex justify-between mx-3'>
-              <div className='flex items-center gap-1'>
-                {project.techStack.map(image => (
-                  <div key={image.id} className='w-[25px]'>
-                    <img src={image.image} alt={image.desc} />
-                  </div>
-                ))}
-              </div>
-
-              <div className='w-[25px]'>
-                  <img src={project.github.image} alt={project.github.desc} />
-              </div>
-            </div>
-          </div>
+          <ProjectCard key={project.id} project={project} />
         ))}
       </div>
     </section>

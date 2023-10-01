@@ -10,13 +10,13 @@ const Navbar = () => {
     <nav className='w-[100%] flex fixed justify-between px-10 py-2 bg-dark-purple-200'>
       <div className='flex items-center gap-2'>
         <img src={Logo} alt='logo' className='w-10' />
-        <span className="gradient-ink-free-text text-[1.7rem] pt-1 font-bold">Nix Web Dev</span>
+        <span className="gradient-text-110 font-ink-free text-[1.7rem] pt-1 font-bold">Nix Web Dev</span>
       </div>
 
       <ul className='hidden sm:flex gap-3'>
         {navbarLinks.map(link => (
           <li key={link.id} className='transition-all hover:scale-110'>
-            <a href={`#${link.id}`} className='gradient-ink-free-text text-[1.4rem] font-bold'>{link.text}</a>
+            <a href={`#${link.id}`} className='gradient-text-180 text-[1.4rem]'>{link.text}</a>
           </li>
         ))}
       </ul>
@@ -29,7 +29,7 @@ const Navbar = () => {
             <ul className='flex flex-col'>
               {navbarLinks.map(link => (
                 <li key={link.id}>
-                  <a href={`#${link.id}`} className='gradient-ink-free-text text-[1.4rem] font-bold' onClick={() => setToggleMenu(false)}>{link.text}</a>
+                  <a href={`#${link.id}`} className='gradient-text-180 text-[1.4rem]' onClick={() => setToggleMenu(false)}>{link.text}</a>
                 </li>
               ))}
             </ul>

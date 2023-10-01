@@ -8,7 +8,7 @@ const Accordion = ({ category, categorySkills }) => {
     <div className='flex flex-col'>
         <div className='flex justify-between items-center px-5 bg-dark-purple-100' onClick={() => setToggleSkills(prev => !prev)}>
             <div className='w-[90%]'>
-                <span className='gradient-poppins-text text-[1.3rem]'>{category}</span>
+                <span className='gradient-text-110 text-[1.3rem]'>{category}</span>
             </div>
             <BsChevronDown className={`${toogleSkills ? 'rotate-180' : ''} transition-all w-[20px] h-[20px] text-primary-cyan`} />
         </div>

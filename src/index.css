@@ -6,6 +6,7 @@
 
 *{
     scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
 }
 
 section{
@@ -16,8 +17,7 @@ body{
     background-color: #100D15;
 }
 
-.gradient-ink-free-text{
-    font-family: "Ink Free", sans-serif;
+.gradient-text-180{
     background: linear-gradient(180deg, #3CF3FF 49.27%, rgba(51, 0, 255, 0.58) 95%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -30,8 +30,7 @@ body{
     -ms-text-fill-color: transparent;
 }
 
-.gradient-poppins-text{
-    font-family: "Poppins", sans-serif;
+.gradient-text-110{
     background: linear-gradient(110deg, #3CF3FF 43.79%, #30F 105.88%);
     background-clip: text;
     -webkit-background-clip: text;

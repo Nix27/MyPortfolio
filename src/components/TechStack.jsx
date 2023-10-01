@@ -6,7 +6,7 @@ import { AiOutlineArrowLeft } from 'react-icons/ai'
 import { AiOutlineArrowRight } from 'react-icons/ai'
 
 const TechStack = () => (
-  <section className='flex flex-col px-10 mt-10'>
+  <section id='tech-stack' className='flex flex-col px-10 mt-10'>
     <SectionTitle title={techstackSection.title} />
 
     <Carousel
