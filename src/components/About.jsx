@@ -13,9 +13,9 @@ const About = () => (
     <div className='flex flex-col gap-2 lg:w-[50%]'>
       <h2 className='gradient-text-180 text-[2.5rem]'>Hi, I'm Nikola</h2>
       <p className='gradient-text-110 text-[1.2rem]'>
-        Passionate, final year, software engineering student.
-        Interested in software development, especially web
-        development using latest technologies. I believe that
+        Passionate, final year, software engineering student
+        interested in software development, especially web
+        development, using latest technologies. I believe that
         for every request or problem is possible to find optimal
         digital solution that will effectivelly solve a problem.
       </p>

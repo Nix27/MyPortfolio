@@ -5,7 +5,7 @@ const Accordion = ({ category, categorySkills }) => {
   const [toogleSkills, setToggleSkills] = useState(false)  
 
   return (
-    <div className='flex flex-col'>
+    <div className=''>
         <div className='flex justify-between items-center px-5 bg-dark-purple-100' onClick={() => setToggleSkills(prev => !prev)}>
             <div className='w-[90%]'>
                 <span className='gradient-text-110 text-[1.3rem]'>{category}</span>
