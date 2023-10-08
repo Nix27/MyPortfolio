@@ -100,7 +100,7 @@ export const skillsSection = {
     skills: [
         {
             id: crypto.randomUUID(),
-            category: "Languages",
+            category: "Programming Languages",
             categorySkills: [
                 {
                     id: crypto.randomUUID(),
