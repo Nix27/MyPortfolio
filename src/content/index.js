@@ -188,6 +188,20 @@ export const skillsSection = {
         },
         {
             id: crypto.randomUUID(),
+            category: "Other",
+            categorySkills: [
+                {
+                    id: crypto.randomUUID(),
+                    text: "Git and Github"
+                },
+                {
+                    id: crypto.randomUUID(),
+                    text: "Using figma designs for web development"
+                }
+            ]
+        },
+        {
+            id: crypto.randomUUID(),
             category: "Soft skills",
             categorySkills: [
                 {
@@ -224,6 +238,7 @@ export const projectsSection = {
             projectImage: projectWebshop,
             imageDesc: "webshop project",
             title: "[Full-Stack] E-commerce Web App",
+            description: "Fully responsive full-stack web app built using asp.net core mvc, repository, unit of work, entity framework core, CQRS with MediatR and azure",
             techStack: [
                 {
                     id: crypto.randomUUID(),
@@ -268,6 +283,7 @@ export const projectsSection = {
             projectImage: projectTravelAgency,
             imageDesc: "travel agency website project",
             title: "[Front-end] Travel agency website",
+            description: "Fully responsive front-end website built using react and tailwind css",
             techStack: [
                 {
                     id: crypto.randomUUID(),
