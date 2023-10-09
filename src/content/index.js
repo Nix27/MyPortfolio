@@ -220,6 +220,7 @@ export const projectsSection = {
     projects: [
         {
             id: crypto.randomUUID(),
+            projectLink: "https://snowboard-webshop-portfolio-project.azurewebsites.net/",
             projectImage: projectWebshop,
             imageDesc: "webshop project",
             title: "[Full-Stack] E-commerce Web App",
@@ -263,6 +264,7 @@ export const projectsSection = {
         },
         {
             id: crypto.randomUUID(),
+            projectLink: "https://travel-agency-website-portfolio-project.vercel.app/",
             projectImage: projectTravelAgency,
             imageDesc: "travel agency website project",
             title: "[Front-end] Travel agency website",
