@@ -1,4 +1,4 @@
-import { html, css, js, sass, bootstrap, tailwindcss, jquery, react, netcore, sql, azure, projectWebshop, projectTravelAgency } from '../assets'
+import { html, css, js, sass, bootstrap, tailwindcss, jquery, react, netcore, sql, azure, projectWebshop, projectTravelAgency, projectCalendar } from '../assets'
 
 export const navbarLinks = [
     {
@@ -22,6 +22,26 @@ export const navbarLinks = [
 export const techstackSection = {
     title: "Tech Stack",
     slides: [
+        {
+            id: crypto.randomUUID(),
+            images: [
+                {
+                    id: crypto.randomUUID(),
+                    image: netcore,
+                    desc: "netcore"
+                },
+                {
+                    id: crypto.randomUUID(),
+                    image: azure,
+                    desc: "azure"
+                },
+                {
+                    id: crypto.randomUUID(),
+                    image: sql,
+                    desc: "sql"
+                }
+            ]
+        },
         {
             id: crypto.randomUUID(),
             images: [
@@ -69,26 +89,6 @@ export const techstackSection = {
                     id: crypto.randomUUID(),
                     image: jquery,
                     desc: "jquery"
-                }
-            ]
-        },
-        {
-            id: crypto.randomUUID(),
-            images: [
-                {
-                    id: crypto.randomUUID(),
-                    image: netcore,
-                    desc: "netcore"
-                },
-                {
-                    id: crypto.randomUUID(),
-                    image: azure,
-                    desc: "azure"
-                },
-                {
-                    id: crypto.randomUUID(),
-                    image: sql,
-                    desc: "sql"
                 }
             ]
         }
@@ -274,6 +274,26 @@ export const projectsSection = {
                     id: crypto.randomUUID(),
                     image: jquery,
                     desc: "jquery"
+                }
+            ]
+        },
+        {
+            id: crypto.randomUUID(),
+            projectLink: "https://calendar-ten-sage.vercel.app/",
+            projectImage: projectCalendar,
+            imageDesc: "calendar project",
+            title: "[Front-end] Calendar viewer for github commits",
+            description: "Fully responsive front-end calendar viewer with details about github commits from github repository",
+            techStack: [
+                {
+                    id: crypto.randomUUID(),
+                    image: react,
+                    desc: "react"
+                },
+                {
+                    id: crypto.randomUUID(),
+                    image: tailwindcss,
+                    desc: "tailwindcss"
                 }
             ]
         },

@@ -14,6 +14,7 @@ import sql from './images/sql.png'
 import projectWebshop from './images/project-webshop.png'
 import figma from './images/figma.png'
 import projectTravelAgency from './images/project-travel-agency.png'
+import projectCalendar from './images/calendar-proj.png'
 
 export {
     Logo,
@@ -31,5 +32,6 @@ export {
     sql,
     projectWebshop,
     figma,
-    projectTravelAgency
+    projectTravelAgency,
+    projectCalendar
 };
