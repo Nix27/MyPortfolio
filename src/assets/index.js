@@ -15,6 +15,7 @@ import projectWebshop from './images/project-webshop.png'
 import figma from './images/figma.png'
 import projectTravelAgency from './images/project-travel-agency.png'
 import projectCalendar from './images/calendar-proj.png'
+import githubLogo from './images/github-logo.png'
 
 export {
     Logo,
@@ -33,5 +34,6 @@ export {
     projectWebshop,
     figma,
     projectTravelAgency,
-    projectCalendar
+    projectCalendar,
+    githubLogo
 };
