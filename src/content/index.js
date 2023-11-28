@@ -112,7 +112,7 @@ export const skillsSection = {
                 },
                 {
                     id: crypto.randomUUID(),
-                    text: "Java (basic)"
+                    text: "Java"
                 }
             ]
         },
