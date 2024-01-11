@@ -282,8 +282,8 @@ export const projectsSection = {
             projectLink: "https://calendar-ten-sage.vercel.app/",
             projectImage: projectCalendar,
             imageDesc: "calendar project",
-            title: "[Front-end] Calendar viewer for github commits",
-            description: "Fully responsive front-end calendar viewer with details about github commits from github repository",
+            title: "[Front-end] Github Commit Viewer",
+            description: "Fully responsive front-end github commit viewer with details about github commits from github repository showed in calendar",
             techStack: [
                 {
                     id: crypto.randomUUID(),
@@ -307,7 +307,7 @@ export const projectsSection = {
             projectLink: "https://travel-agency-website-portfolio-project.vercel.app/",
             projectImage: projectTravelAgency,
             imageDesc: "travel agency website project",
-            title: "[Front-end] Travel agency website",
+            title: "[Front-end] Travel Agency Website",
             description: "Fully responsive front-end website built using react and tailwind css",
             techStack: [
                 {
