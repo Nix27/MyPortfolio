@@ -99,15 +99,15 @@ export const skillsSection = {
             categorySkills: [
                 {
                     id: crypto.randomUUID(),
+                    text: "JavaScript"
+                },
+                {
+                    id: crypto.randomUUID(),
                     text: "C#"
                 },
                 {
                     id: crypto.randomUUID(),
                     text: "Java"
-                },
-                {
-                    id: crypto.randomUUID(),
-                    text: "JavaScript"
                 }
             ]
         },
@@ -157,6 +157,14 @@ export const skillsSection = {
             categorySkills: [
                 {
                     id: crypto.randomUUID(),
+                    text: "HTML, CSS, SASS, Bootstrap, Tailwind CSS"
+                },
+                {
+                    id: crypto.randomUUID(),
+                    text: "JavaScript, React"
+                },
+                {
+                    id: crypto.randomUUID(),
                     text: "Restful API"
                 },
                 {
@@ -165,19 +173,11 @@ export const skillsSection = {
                 },
                 {
                     id: crypto.randomUUID(),
-                    text: "HTML, CSS, SASS, Bootstrap, Tailwind CSS"
-                },
-                {
-                    id: crypto.randomUUID(),
-                    text: "JavaScript, React, jQuery"
-                },
-                {
-                    id: crypto.randomUUID(),
                     text: "ASP.NET Core Web API, ASP.NET Core MVC"
                 },
                 {
                     id: crypto.randomUUID(),
-                    text: "Spring Boot (Basic)"
+                    text: "Spring Boot"
                 }
             ]
         },
