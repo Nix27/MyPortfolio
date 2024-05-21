@@ -27,6 +27,26 @@ export const techstackSection = {
             images: [
                 {
                     id: crypto.randomUUID(),
+                    image: netcore,
+                    desc: "netcore"
+                },
+                {
+                    id: crypto.randomUUID(),
+                    image: azure,
+                    desc: "azure"
+                },
+                {
+                    id: crypto.randomUUID(),
+                    image: sql,
+                    desc: "sql"
+                }
+            ]
+        },
+        {
+            id: crypto.randomUUID(),
+            images: [
+                {
+                    id: crypto.randomUUID(),
                     image: html,
                     desc: "html"
                 },
@@ -66,26 +86,6 @@ export const techstackSection = {
                     desc: "react"
                 }
             ]
-        },
-        {
-            id: crypto.randomUUID(),
-            images: [
-                {
-                    id: crypto.randomUUID(),
-                    image: netcore,
-                    desc: "netcore"
-                },
-                {
-                    id: crypto.randomUUID(),
-                    image: azure,
-                    desc: "azure"
-                },
-                {
-                    id: crypto.randomUUID(),
-                    image: sql,
-                    desc: "sql"
-                }
-            ]
         }
     ]
 }
@@ -99,15 +99,15 @@ export const skillsSection = {
             categorySkills: [
                 {
                     id: crypto.randomUUID(),
-                    text: "JavaScript"
-                },
-                {
-                    id: crypto.randomUUID(),
                     text: "C#"
                 },
                 {
                     id: crypto.randomUUID(),
                     text: "Java"
+                },
+                {
+                    id: crypto.randomUUID(),
+                    text: "JavaScript"
                 }
             ]
         },
@@ -157,6 +157,14 @@ export const skillsSection = {
             categorySkills: [
                 {
                     id: crypto.randomUUID(),
+                    text: "ASP.NET Core Web API, ASP.NET Core MVC"
+                },
+                {
+                    id: crypto.randomUUID(),
+                    text: "Spring Boot"
+                },
+                {
+                    id: crypto.randomUUID(),
                     text: "HTML, CSS, SASS, Bootstrap, Tailwind CSS"
                 },
                 {
@@ -169,15 +177,7 @@ export const skillsSection = {
                 },
                 {
                     id: crypto.randomUUID(),
-                    text: "Familiarity with authorization and authentication with JWT"
-                },
-                {
-                    id: crypto.randomUUID(),
-                    text: "ASP.NET Core Web API, ASP.NET Core MVC"
-                },
-                {
-                    id: crypto.randomUUID(),
-                    text: "Spring Boot"
+                    text: "Authentication and authorization with JWT"
                 }
             ]
         },

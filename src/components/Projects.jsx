@@ -13,6 +13,7 @@ const Projects = () => {
           <ProjectCard key={project.id} project={project} />
         ))}
       </div>
+
     </section>
   )
 }
