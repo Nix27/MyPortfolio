@@ -16,6 +16,15 @@ import figma from './images/figma.png'
 import projectTravelAgency from './images/project-travel-agency.png'
 import projectCalendar from './images/calendar-proj.png'
 import githubLogo from './images/github-logo.png'
+import capacitorLogo from './images/capacitor.png'
+import ionicLogo from './images/ionic.jpeg'
+import zffImage from './images/zff_background.jpg'
+import googlePlayBadge from './images/google-play-badge.png'
+import appStoreBadge from './images/app-store-badge.png'
+import projectLive from './images/live-project-cyan.png'
+import close from './images/close.png'
+import bedsWebshop from './images/bedswebshop.jpg'
+import springboot from './images/springboot.png'
 
 export {
     Logo,
@@ -35,5 +44,14 @@ export {
     figma,
     projectTravelAgency,
     projectCalendar,
-    githubLogo
+    githubLogo,
+    capacitorLogo,
+    ionicLogo,
+    zffImage,
+    googlePlayBadge,
+    appStoreBadge,
+    projectLive,
+    close,
+    bedsWebshop,
+    springboot
 };

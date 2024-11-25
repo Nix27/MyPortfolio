@@ -16,7 +16,8 @@ export default withMT({
         },
         "primary-cyan": "#3CF3FF",
         "primary-gray": "#2C2D3A",
-        "primary-white": "#FFFFFF"
+        "primary-white": "#FFFFFF",
+        'transparent-dark': 'rgba(24,24,24,0.5)'
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
