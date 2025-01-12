@@ -64,6 +64,11 @@ export const techstackSection = {
                     id: crypto.randomUUID(),
                     image: react,
                     desc: "react"
+                },
+                {
+                    id: crypto.randomUUID(),
+                    image: ionicLogo,
+                    desc: "ionic"
                 }
             ]
         },
@@ -95,8 +100,38 @@ export const skillsSection = {
     skills: [
         {
             id: crypto.randomUUID(),
+            category: "Web",
+            categorySkills: [
+                {
+                    id: crypto.randomUUID(),
+                    text: "HTML, CSS, SASS, Bootstrap, Tailwind CSS"
+                },
+                {
+                    id: crypto.randomUUID(),
+                    text: "JavaScript, TypeScript, React"
+                },
+                {
+                    id: crypto.randomUUID(),
+                    text: "Restful API"
+                },
+                {
+                    id: crypto.randomUUID(),
+                    text: "Authentication and authorization with JWT"
+                },
+                {
+                    id: crypto.randomUUID(),
+                    text: "ASP.NET Core Web API, ASP.NET Core MVC"
+                }
+            ]
+        },
+        {
+            id: crypto.randomUUID(),
             category: "Programming Languages",
             categorySkills: [
+                {
+                    id: crypto.randomUUID(),
+                    text: "JavaScript, TypeScript"
+                },
                 {
                     id: crypto.randomUUID(),
                     text: "C#"
@@ -104,10 +139,6 @@ export const skillsSection = {
                 {
                     id: crypto.randomUUID(),
                     text: "Java"
-                },
-                {
-                    id: crypto.randomUUID(),
-                    text: "JavaScript"
                 }
             ]
         },
@@ -131,10 +162,6 @@ export const skillsSection = {
             categorySkills: [
                 {
                     id: crypto.randomUUID(),
-                    text: "CQRS"
-                },
-                {
-                    id: crypto.randomUUID(),
                     text: "MVC"
                 },
                 {
@@ -143,37 +170,11 @@ export const skillsSection = {
                 },
                 {
                     id: crypto.randomUUID(),
+                    text: "CQRS"
+                },
+                {
+                    id: crypto.randomUUID(),
                     text: "Clean architecture"
-                }
-            ]
-        },
-        {
-            id: crypto.randomUUID(),
-            category: "Web",
-            categorySkills: [
-                {
-                    id: crypto.randomUUID(),
-                    text: "Spring Boot"
-                },
-                {
-                    id: crypto.randomUUID(),
-                    text: "ASP.NET Core Web API, ASP.NET Core MVC"
-                },
-                {
-                    id: crypto.randomUUID(),
-                    text: "HTML, CSS, SASS, Bootstrap, Tailwind CSS"
-                },
-                {
-                    id: crypto.randomUUID(),
-                    text: "JavaScript, React"
-                },
-                {
-                    id: crypto.randomUUID(),
-                    text: "Restful API"
-                },
-                {
-                    id: crypto.randomUUID(),
-                    text: "Authentication and authorization with JWT"
                 }
             ]
         },
@@ -301,45 +302,45 @@ export const projectsSection = {
                 }
             ]
         },
-        {
-            id: crypto.randomUUID(),
-            githubLink: "https://github.com/Nix27/SpringBoot_BedsWebShop",
-            projectLink: "",
-            isMobile: false,
-            androidLink: "",
-            iosLink: "",
-            projectImage: bedsWebshop,
-            imageDesc: "webshop project",
-            title: "[Full-Stack] E-commerce Web App For Beds",
-            description: "A fully responsive full-stack web app integrated with PayPal and built using Spring Boot, repository pattern, services, JPA, and SQL Server Database.",
-            techStack: [
-                {
-                    id: crypto.randomUUID(),
-                    image: springboot,
-                    desc: "springboot"
-                },
-                {
-                    id: crypto.randomUUID(),
-                    image: sql,
-                    desc: "sql server"
-                },
-                {
-                    id: crypto.randomUUID(),
-                    image: html,
-                    desc: "html"
-                },
-                {
-                    id: crypto.randomUUID(),
-                    image: bootstrap,
-                    desc: "bootstrap"
-                },
-                {
-                    id: crypto.randomUUID(),
-                    image: js,
-                    desc: "js"
-                }
-            ]
-        },
+        // {
+        //     id: crypto.randomUUID(),
+        //     githubLink: "https://github.com/Nix27/SpringBoot_BedsWebShop",
+        //     projectLink: "",
+        //     isMobile: false,
+        //     androidLink: "",
+        //     iosLink: "",
+        //     projectImage: bedsWebshop,
+        //     imageDesc: "webshop project",
+        //     title: "[Full-Stack] E-commerce Web App For Beds",
+        //     description: "A fully responsive full-stack web app integrated with PayPal and built using Spring Boot, repository pattern, services, JPA, and SQL Server Database.",
+        //     techStack: [
+        //         {
+        //             id: crypto.randomUUID(),
+        //             image: springboot,
+        //             desc: "springboot"
+        //         },
+        //         {
+        //             id: crypto.randomUUID(),
+        //             image: sql,
+        //             desc: "sql server"
+        //         },
+        //         {
+        //             id: crypto.randomUUID(),
+        //             image: html,
+        //             desc: "html"
+        //         },
+        //         {
+        //             id: crypto.randomUUID(),
+        //             image: bootstrap,
+        //             desc: "bootstrap"
+        //         },
+        //         {
+        //             id: crypto.randomUUID(),
+        //             image: js,
+        //             desc: "js"
+        //         }
+        //     ]
+        // },
         {
             id: crypto.randomUUID(),
             githubLink: "https://github.com/Nix27/Github-Commit-Viewer",

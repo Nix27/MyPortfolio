@@ -15,9 +15,9 @@ const About = () => (
       <p className='gradient-text-110 text-[1.2rem]'>
         Passionate, final year, software engineering student
         interested in software development, especially web
-        development, using the latest technologies. I believe that
-        for every request or problem is possible to find optimal
-        digital solution that will effectivelly solve a problem.
+        development, using the latest technologies. I 
+        believe that for every request or problem, it is possible to find an 
+        optimal digital solution that effectively solves a problem.
       </p>
 
       <div className='flex gap-3 text-[1.5rem] lg:text-[1.3rem] mt-2'>
